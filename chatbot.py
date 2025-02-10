@@ -30,7 +30,7 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="VIJAY@25",
+        password="VXCXXX5",
         database="SmartInventory"
     )
 
