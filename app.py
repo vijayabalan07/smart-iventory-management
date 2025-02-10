@@ -39,7 +39,7 @@ import json
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="VIJAY@25",   
+    password="XXXxX",   
     database="SmartInventory"
 )
 cursor = db.cursor()
@@ -101,13 +101,13 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="VIJAY@25",
+        password="XXXXXX",
         database="SmartInventory"
     )
 
 # === 🔹 Telegram Notification ===
 TELEGRAM_API_TOKEN = "7932666381:AAEDrkX8mbAjjuHww2vfDxgdKq-UEisOK_8"
-CHAT_ID = "7442967349"
+CHAT_ID = "744296739"
 
 def send_telegram_message(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_API_TOKEN}/sendMessage"
@@ -117,8 +117,8 @@ def send_telegram_message(message):
 
 # === 🔹 Email Notification ===
 def send_email(subject, message, recipient_email):
-    sender_email = "vijayabalan25032001v@gmail.com"
-    sender_password = "hqpk qokl naob gxnb"
+    sender_email = "vijayabalan2v@gmail.com"
+    sender_password = "XXXXXXXXXX"
     yag = yagmail.SMTP(user=sender_email, password=sender_password)
     yag.send(to=recipient_email, subject=subject, contents=message)
     return True
@@ -295,7 +295,7 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="VIJAY@25",
+        password="VXXXX25",
         database="SmartInventory"
     )
 
